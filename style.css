@@ -1,0 +1,39 @@
+		body {
+				background-color: #DEDEDE;
+				padding-top: 30px;
+			}
+
+		h3 {
+			color: #555555;
+			text-transform: uppercase;
+		}
+
+		div#hands  span.hand {
+			cursor: pointer;
+		}
+
+		div#hands span.hand:hover {
+			color: skyblue;
+		}
+
+		span.hand-text {
+			font-weight: bold;
+			color: grey;
+		}
+
+		div.hands-score {
+			font-weight: bold;
+			font-size: 30px;
+			padding-top: 50px;
+			display: block;
+		}
+
+		div#userscore, div#computerscore {
+			font-size: 50px;
+			color: #31708F;
+		}
+
+		div#result {
+			font-weight: bold;
+			font-size: 20px;
+		}

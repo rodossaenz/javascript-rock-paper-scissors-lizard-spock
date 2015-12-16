@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>[Web] Rock-Paper-Scissors-Lizard-Spock</title>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="game.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<h3 class="col-sm-10 col-md-10 text-center">Rock - Paper - Scissors - Lizard - Spock <br> [Web Game] </h3>
+
+		<div class="clearfix"></div>
+		<div class="col-sm-10 col-md-10 text-center">
+			<a href="http://github.com/rodosaenz" class="btn btn-sm"><i class="fa fa-github fa-2x"></i> </a>
+			<a href="http://twitter.com/rodosaenz" class="btn btn-sm"><i class="fa fa-twitter fa-2x"></i> </a>
+		</div>
+		<div class="clearfix"></div>
+		<p>&nbsp;</p>
+
+		<div class="" id="hands">
+
+		  <div class="col-sm-2 col-md-2 text-center"> 
+		  	<span class="hand text-muted fa-stack fa-5x" id="rock"> 
+		  		<i class="fa fa-circle-thin fa-stack-2x"></i> 
+		  		<i class="fa fa-hand-rock-o fa-stack-1x"></i> 	
+		  	</span><br>	
+		  	<span class="hand-text">ROCK</span>
+		  </div>
+
+		  <div class="col-sm-2 col-md-2 text-center"> 
+		  	<span class="hand text-muted fa-stack fa-5x" id="paper"> 
+		  		<i class="fa fa-circle-thin fa-stack-2x"></i> 
+		  		<i class="fa fa-hand-paper-o fa-stack-1x"></i> 	
+		  	</span><br>
+		  	<span class="hand-text">PAPER</span>
+		  </div>
+
+		  <div class="col-sm-2 col-md-2 text-center"> 
+		  	<span class="hand text-muted fa-stack fa-5x" id="scissors"> 
+		  		<i class="fa fa-circle-thin fa-stack-2x"></i> 
+		  		<i class="fa fa-hand-scissors-o fa-stack-1x"></i> 	
+		  	</span><br>
+		  	<span class="hand-text">SCISSORS</span>	
+		  </div>
+
+		  <div class="col-sm-2 col-md-2 text-center"> 
+		  	<span class="hand text-muted fa-stack fa-5x" id="lizard"> 
+		  		<i class="fa fa-circle-thin fa-stack-2x"></i> 
+		  		<i class="fa fa-hand-lizard-o fa-stack-1x"></i> 	
+		  	</span><br>
+		  	<span class="hand-text">LIZARD</span>
+		  </div>
+
+		  <div class="col-sm-2 col-md-2 text-center"> 
+		  	<span class="hand text-muted fa-stack fa-5x" id="spock"> 
+		  		<i class="fa fa-circle-thin fa-stack-2x"></i> 
+		  		<i class="fa fa-hand-spock-o fa-stack-1x"></i> 	
+		  	</span><br>
+		  	<span class="hand-text">SPOCK</span>
+		  </div>
+
+		</div>
+
+		<div class="clearfix"></div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+		<div class="" id="battle">
+
+			<div class="hands-score text-muted col-md-2">
+				<div id="userscore" class="text-center">0</div>
+				<div class="text-center score">SCORE</div>
+			</div>
+
+			<div class="col-md-2 text-right">
+				<div id="user" class="text-center"></div>
+			</div>
+
+			<div class="col-md-2"></div>
+
+			<div class="col-md-2 text-left"> 
+				<div id="computer" class="text-center"></div>
+			</div>
+
+			<div class="hands-score text-muted col-md-2">
+				<div id="computerscore" class="text-center">0</div>
+				<div class="text-center score">SCORE</div>
+			</div>
+
+		</div>
+
+		<div class="clearfix"></div>
+		<p>&nbsp;</p>
+		<div class="col-md-10 text-center" id="result">
+
+		</div>	
+
+	</div>
+
+
+</body>
+</html>
