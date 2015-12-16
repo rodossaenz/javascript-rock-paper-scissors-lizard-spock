@@ -18,3 +18,6 @@ The rules of Rock-paper-scissors-lizard-Spock are:
 * Paper disproves Spock
 * Spock vaporizes rock
 * Rock breaks scissors
+
+## Screen Demo
+![Rock Paper Scissors Lizard Spock](https://raw.githubusercontent.com/rodosaenz/WebGame-RockPaperScissorsLizardSpock/master/screen.PNG)
