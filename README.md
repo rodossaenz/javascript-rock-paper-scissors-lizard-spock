@@ -1,4 +1,4 @@
-# WebGame-RockPaperScissorsLizardSpock 
+# Rock Paper Scissors Lizard Spock - Web Game
 
 This is a simple web based game developed using jquery library, bootstrap css frameword and font-awesome icon framework.
 You can play againts the computer. The computer uses a random choice from rock, paper, scissors, lizard or spock.
